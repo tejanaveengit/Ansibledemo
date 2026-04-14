@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/your-org/cicd-jenkins-ansible-sample.git'
+                git url: 'https://github.com/tejanaveengit/Ansibledemo.git'
             }
         }
 
