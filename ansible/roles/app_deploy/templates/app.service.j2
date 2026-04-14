@@ -1,0 +1,12 @@
+[Unit]
+Description=Sample Java Application
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/java -jar /opt/sample-app/sample-app.jar
+SuccessExitStatus=143
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
